@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.wav
+*.mp3
+*.webm
+data/campaigns_db_backup*.json

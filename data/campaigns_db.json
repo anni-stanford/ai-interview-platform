@@ -1,0 +1,1574 @@
+{
+  "campaigns": {
+    "taskflow_001": {
+      "id": "taskflow_001",
+      "name": "TaskFlow — Customer Discovery",
+      "product_description": "TaskFlow is a project management SaaS built specifically for remote engineering teams. It auto-syncs with GitHub to update ticket status from commits and PRs, eliminating manual updates. It provides a unified view for both engineers and product managers with a live roadmap that never needs an Excel export. We're researching why teams switch away from Jira and what the top friction points are.",
+      "target_respondent": "Engineering managers, CTOs, PMs, and senior engineers at tech companies",
+      "research_goal": "Understand why remote engineering teams switch away from Jira and what the top friction points are",
+      "created_date": "2026-01-17",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Thanks for joining. I'd love to understand your experience with project management tools. Can you walk me through how your team currently tracks engineering work?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "That's really telling — the two-hour sprint planning really stands out. What specifically makes it take that long?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "Interesting — so you're maintaining a parallel system in Notion. What would it look like if you had just one tool that worked?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "How much time per week do you think your team collectively spends on Jira admin tasks that don't involve actual thinking?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "One final question: if a new tool could eliminate that busywork, what would make you confident enough to switch?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "You're a CTO at a 12-person startup — I'm curious how you think about project management at this stage. What's your current setup?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "What do you mean by 'the way engineers actually think' — can you give me a concrete example?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "You've switched tools three times. What made you finally leave each one?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "That split between engineering and product is really interesting. Who suffers more from that disconnect — engineers or the PM?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "If you could wave a magic wand, what does the ideal tool look like for your team?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "taskflow_001",
+      "interviews": [
+        {
+          "id": "TF-001",
+          "respondent_name": "Alex M.",
+          "respondent_role": "Engineering Manager",
+          "respondent_company_size": "45 employees",
+          "respondent_industry": "FinTech",
+          "completed_date": "2026-01-17",
+          "duration_minutes": 10,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "Thanks for joining. I'd love to understand your experience with project management tools. Can you walk me through how your team currently tracks engineering work?",
+              "answer_text": "We use Jira but honestly it's a constant headache. Every sprint planning takes two hours just to update ticket statuses. Half the engineers don't even log in unless I remind them.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "That's really telling — the two-hour sprint planning really stands out. What specifically makes it take that long?",
+              "answer_text": "The UI is just terrible for bulk updates. And Jira's search is broken — I can never find the ticket I'm looking for without knowing the exact ID. We end up having a Notion doc that duplicates everything just so people can actually find things.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "Interesting — so you're maintaining a parallel system in Notion. What would it look like if you had just one tool that worked?",
+              "answer_text": "Search that actually works, updates that take one click not five, and something I can pull up on my phone in 30 seconds. My engineers are in GitHub all day — I'd love something that just pulled in their commits automatically and updated tickets without anyone touching them.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "How much time per week do you think your team collectively spends on Jira admin tasks that don't involve actual thinking?",
+              "answer_text": "Conservatively? Four to five hours per person. That's 200 hours a month across my team just on busywork. It's insane when I put it that way.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q5",
+              "question_text": "One final question: if a new tool could eliminate that busywork, what would make you confident enough to switch?",
+              "answer_text": "A two-week trial that actually migrates my data cleanly. And it needs to work with GitHub and Slack natively — not through a 12-step integration.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "Jira friction",
+              "UI/UX pain",
+              "search usability",
+              "GitHub integration",
+              "time waste",
+              "onboarding friction"
+            ],
+            "sentiment_scores": {
+              "overall": 2.1,
+              "pain_intensity": 4.6,
+              "openness_to_switch": 4.2
+            },
+            "key_quotes": [
+              "200 hours a month across my team just on busywork",
+              "We end up having a Notion doc that duplicates everything",
+              "A two-week trial that actually migrates my data cleanly"
+            ],
+            "actionable_insights": [
+              "Automatic GitHub commit-to-ticket linking is a top feature request",
+              "Sprint planning time is a key pain metric — target <15 min as success benchmark",
+              "Data migration guarantee is a precondition for switching"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "TF-002",
+          "respondent_name": "Sofia L.",
+          "respondent_role": "CTO",
+          "respondent_company_size": "12 employees",
+          "respondent_industry": "HealthTech",
+          "completed_date": "2026-01-17",
+          "duration_minutes": 20,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "You're a CTO at a 12-person startup — I'm curious how you think about project management at this stage. What's your current setup?",
+              "answer_text": "We started with Asana, moved to Linear, and now we're trying Notion. Honestly we keep switching because nothing quite fits the way engineers actually think.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "What do you mean by 'the way engineers actually think' — can you give me a concrete example?",
+              "answer_text": "Engineers think in code. They want to see the PR, the test status, the deployment — all in one place. Every PM tool treats those as afterthoughts. Linear is the closest but it still feels like two separate worlds.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "You've switched tools three times. What made you finally leave each one?",
+              "answer_text": "Asana was too process-heavy — felt like I was filling out TPS reports. Linear was actually great until our product manager joined and said she couldn't figure out the roadmap view. So now we have Linear for engineers and Notion for product and they don't talk to each other.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "That split between engineering and product is really interesting. Who suffers more from that disconnect — engineers or the PM?",
+              "answer_text": "The PM, definitely. She's flying blind on what's actually built vs what's planned. I end up being the translator. That's probably 5 hours a week of my time that I shouldn't be spending.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q5",
+              "question_text": "If you could wave a magic wand, what does the ideal tool look like for your team?",
+              "answer_text": "One source of truth that engineers love using AND that the PM can understand without a tutorial. That's it. Seems simple but apparently impossible.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "tool switching fatigue",
+              "engineering-PM disconnect",
+              "roadmap visibility",
+              "GitHub integration",
+              "onboarding friction",
+              "single source of truth"
+            ],
+            "sentiment_scores": {
+              "overall": 2.4,
+              "pain_intensity": 4.1,
+              "openness_to_switch": 4.7
+            },
+            "key_quotes": [
+              "Engineers think in code — they want to see the PR, the test status, the deployment all in one place",
+              "I end up being the translator. That's 5 hours a week of my time",
+              "One source of truth that engineers love AND that the PM can understand"
+            ],
+            "actionable_insights": [
+              "CTO translator role is a major hidden cost — position product as eliminating this",
+              "PM-engineer gap is a stronger wedge than pure engineer productivity",
+              "Linear is the closest competitor — understand its roadmap weakness specifically"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "TF-003",
+          "respondent_name": "James K.",
+          "respondent_role": "Senior Software Engineer",
+          "respondent_company_size": "200 employees",
+          "respondent_industry": "E-commerce",
+          "completed_date": "2026-01-21",
+          "duration_minutes": 12,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "As a senior engineer, you're on the receiving end of project management tools rather than choosing them. What's your honest experience with Jira day-to-day?",
+              "answer_text": "I avoid it as much as possible. If I could do my job without ever opening Jira I would. My manager knows this and basically updates tickets for me.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "That's pretty strong. What specifically makes you want to avoid it?",
+              "answer_text": "The loading times alone kill me. Each page takes 3-4 seconds. Over a day, clicking around Jira probably wastes 30 minutes. And the editor for ticket descriptions is this weird pseudo-markdown that doesn't render properly half the time.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "You mentioned your manager updates tickets for you — does that create any problems?",
+              "answer_text": "Yeah, status is always wrong. Tickets sit in 'In Progress' for weeks because nobody remembers to move them. Then we have these retrospective meetings where half the time is spent figuring out what actually happened vs what the board says.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If you could redesign the tool to fit how you actually work, what would it look like?",
+              "answer_text": "Honestly? Just watch my GitHub activity and update things automatically. I open a branch, move ticket to In Progress. I open a PR, move to Review. PR merges, move to Done. Zero clicks from me.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "Jira friction",
+              "UI/UX pain",
+              "GitHub integration",
+              "status accuracy",
+              "time waste",
+              "automation desire"
+            ],
+            "sentiment_scores": {
+              "overall": 1.6,
+              "pain_intensity": 4.8,
+              "openness_to_switch": 3.9
+            },
+            "key_quotes": [
+              "If I could do my job without ever opening Jira I would",
+              "Each page takes 3-4 seconds — probably wastes 30 minutes a day",
+              "Just watch my GitHub activity and update things automatically"
+            ],
+            "actionable_insights": [
+              "GitHub-driven automatic status updates is the #1 engineer feature request (confirmed 2/3 interviews)",
+              "Page load speed is a real pain point — benchmark Jira vs TaskFlow on p95 load time",
+              "Engineers want zero-click updates — pure automation angle resonates strongly"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "TF-004",
+          "respondent_name": "Priya N.",
+          "respondent_role": "Product Manager",
+          "respondent_company_size": "80 employees",
+          "respondent_industry": "EdTech",
+          "completed_date": "2026-01-22",
+          "duration_minutes": 11,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "As a PM, you probably have a different relationship with project management tools than engineers do. How would you describe yours?",
+              "answer_text": "I live in these tools. Jira is my second home — unfortunately. I spend probably 3 hours a day in it, which is embarrassing but that's just reality.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "What are those 3 hours actually spent on?",
+              "answer_text": "Chasing engineers to update tickets, building reports for stakeholders, trying to understand sprint velocity — half of which is garbage data because the tickets aren't updated anyway. And roadmap planning, which requires exporting to Excel because Jira's roadmap view is unusable.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "The Excel export for roadmaps really jumped out. Can you tell me more about that workflow?",
+              "answer_text": "It's humiliating honestly. I export Jira data, paste it into an Excel template I built, format it manually, then present it to leadership. If anything changes, I do it again. This happens every two weeks.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What would it mean for your work if roadmaps were always live and accurate without that export step?",
+              "answer_text": "I'd get maybe an hour back per day and leadership would actually trust the data. Right now they always ask me if the numbers are fresh. That's embarrassing for me and for the whole process.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "roadmap visibility",
+              "stakeholder reporting",
+              "data accuracy",
+              "manual workarounds",
+              "PM time waste",
+              "Excel dependency"
+            ],
+            "sentiment_scores": {
+              "overall": 2.0,
+              "pain_intensity": 4.3,
+              "openness_to_switch": 4.5
+            },
+            "key_quotes": [
+              "I export Jira data, paste it into an Excel template I built — every two weeks",
+              "Leadership always asks me if the numbers are fresh — that's embarrassing",
+              "3 hours a day in Jira, which is embarrassing"
+            ],
+            "actionable_insights": [
+              "Live roadmap that eliminates Excel exports is a massive PM pain point — strong product angle",
+              "Stakeholder trust in data freshness is an acute problem — real-time sync is a key differentiator",
+              "PMs spending 3h/day in PM tools suggests product stickiness opportunity"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "TF-005",
+          "respondent_name": "Ryan C.",
+          "respondent_role": "VP Engineering",
+          "respondent_company_size": "350 employees",
+          "respondent_industry": "SaaS",
+          "completed_date": "2026-01-27",
+          "duration_minutes": 10,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "At 350 people, you're managing project management at real scale. What does that look like and where does it break?",
+              "answer_text": "We have Jira for engineering, Confluence for docs, Slack for communication, and Figma for design. None of them talk to each other properly. I spend half my one-on-ones just trying to understand project status because nobody trusts the tickets.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "When you say nobody trusts the tickets — what's the consequence of that?",
+              "answer_text": "We have shadow systems. Each team lead has their own spreadsheet. I have my own spreadsheet. The executive team has a dashboard that's manually updated. We're all triangulating from different sources and reaching different conclusions. It's chaos with a polished veneer.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "What would you pay to solve the 'shadow systems' problem?",
+              "answer_text": "Honestly, if someone could give me one accurate source of truth and kill the spreadsheets, I'd pay $50 per seat per month and not think twice. The productivity loss is 10x that.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What would it take to get 350 engineers to actually adopt a new tool?",
+              "answer_text": "Executive sponsorship plus a migration team that handles the actual data move. I've been burned by 'easy migrations' before. The tool itself needs to win engineers in the first 20 minutes or they'll revolt.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "shadow systems",
+              "tool fragmentation",
+              "data accuracy",
+              "enterprise adoption",
+              "migration risk",
+              "willingness to pay"
+            ],
+            "sentiment_scores": {
+              "overall": 2.3,
+              "pain_intensity": 4.5,
+              "openness_to_switch": 3.8
+            },
+            "key_quotes": [
+              "We're all triangulating from different sources — chaos with a polished veneer",
+              "I'd pay $50/seat/month and not think twice",
+              "The tool needs to win engineers in the first 20 minutes or they'll revolt"
+            ],
+            "actionable_insights": [
+              "$50/seat price point validated by VP Eng at 350-person company",
+              "Shadow spreadsheet elimination is the enterprise value prop — quantify this",
+              "First 20-minute onboarding experience is make-or-break for engineer adoption"
+            ],
+            "auto_analyzed": true
+          }
+        }
+      ]
+    },
+    "nourishnow_001": {
+      "id": "nourishnow_001",
+      "name": "NourishNow — Customer Discovery",
+      "product_description": "NourishNow is a hyperlocal healthy meal delivery service for offices. Employers set up a recurring subscription and employees get fresh, chef-prepared healthy lunches delivered to their desks at a precise time — no 3-hour delivery windows, no decision fatigue, no expense reports. We're researching the barriers to healthy eating at work and willingness to pay.",
+      "target_respondent": "Office workers, HR directors, operations managers, and founders",
+      "research_goal": "Understand barriers to healthy eating at work and what would make people pay for a solution",
+      "created_date": "2026-01-18",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I'd love to understand lunch at your office. Walk me through a typical workday lunch — what actually happens?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "When you say the first order was wrong — how often does that actually happen?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "You manage operations for the office. Is lunch something you've ever tried to solve at a company level?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "What's the magic version of office lunch for you?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "What does your lunch routine look like on a typical workday?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "When you say 'something terrible' — what does that actually look like?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "How does skipping lunch actually affect your afternoon performance?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "You're clearly aware this is a problem. What's stopped you from solving it?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "From an HR perspective, how do you think about food and nutrition as part of employee wellbeing?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "Only 30% using a benefit they're entitled to — that's striking. What do you think is stopping the other 70%?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "nourishnow_001",
+      "interviews": [
+        {
+          "id": "NN-001",
+          "respondent_name": "Michelle T.",
+          "respondent_role": "Operations Manager",
+          "respondent_company_size": "60 employees",
+          "respondent_industry": "Consulting",
+          "completed_date": "2026-01-18",
+          "duration_minutes": 20,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "I'd love to understand lunch at your office. Walk me through a typical workday lunch — what actually happens?",
+              "answer_text": "It's a disaster. Half the team orders DoorDash, which takes 45 minutes and costs $20-25 per person. The other half brings sad desk salads. The people who order delivery end up eating at 2pm because the first order was wrong.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "When you say the first order was wrong — how often does that actually happen?",
+              "answer_text": "At least twice a week for someone on our team. And it's not just wrong orders — it's cold food, missing items, and then you've spent 20 minutes on a chat with customer support. It ruins the afternoon.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "You manage operations for the office. Is lunch something you've ever tried to solve at a company level?",
+              "answer_text": "We tried a catering service for a month. $18 per person per day, food was mediocre, and half the team had dietary restrictions that weren't being met. Vegetarians were eating the same sad pasta every day.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What's the magic version of office lunch for you?",
+              "answer_text": "Hot, healthy, ready at 12:30, with actual dietary options — not just 'we have salad.' And I want to not think about it. If I could set it up once and it just works every day, I'd sign a contract today.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "delivery reliability",
+              "dietary restrictions",
+              "office catering",
+              "convenience",
+              "willingness to pay",
+              "decision fatigue"
+            ],
+            "sentiment_scores": {
+              "overall": 2.2,
+              "pain_intensity": 4.2,
+              "openness_to_switch": 4.8
+            },
+            "key_quotes": [
+              "I'd sign a contract today",
+              "Half the team has dietary restrictions that weren't being met",
+              "If I could set it up once and it just works every day"
+            ],
+            "actionable_insights": [
+              "Set-and-forget subscription model is highly desired by ops managers",
+              "Dietary restrictions handling is a major differentiator vs. existing catering",
+              "$18/person/day is an accepted price point for corporate catering"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "NN-002",
+          "respondent_name": "David W.",
+          "respondent_role": "Software Engineer",
+          "respondent_company_size": "150 employees",
+          "respondent_industry": "Tech",
+          "completed_date": "2026-01-20",
+          "duration_minutes": 10,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "What does your lunch routine look like on a typical workday?",
+              "answer_text": "I used to be really intentional about it — meal prep on Sundays. But I've been in crunch mode for three months and I've completely fallen off. Now it's whatever is fastest, usually something terrible.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "When you say 'something terrible' — what does that actually look like?",
+              "answer_text": "Chips from the vending machine or whatever is left in the kitchen. Sometimes I just don't eat lunch at all and then I'm useless in the 3pm standup. I know it's bad but when I'm in a deadline sprint I just don't have the mental bandwidth.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "How does skipping lunch actually affect your afternoon performance?",
+              "answer_text": "Measurably. I can feel my focus drop around 2:30. I make more bugs, I'm less patient in code reviews. I've actually started blocking 12-12:30 on my calendar just to force myself to eat something.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "You're clearly aware this is a problem. What's stopped you from solving it?",
+              "answer_text": "Decision fatigue. I make thousands of decisions at work. The last thing I want is another decision about what to eat. If something just showed up at my desk that was actually good for me, I'd pay $15 easily.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "decision fatigue",
+              "health awareness",
+              "productivity impact",
+              "willingness to pay",
+              "convenience",
+              "work-life balance"
+            ],
+            "sentiment_scores": {
+              "overall": 2.8,
+              "pain_intensity": 3.7,
+              "openness_to_switch": 4.3
+            },
+            "key_quotes": [
+              "I can feel my focus drop around 2:30 — I make more bugs",
+              "Decision fatigue — I make thousands of decisions at work",
+              "If something just showed up at my desk that was actually good for me, I'd pay $15 easily"
+            ],
+            "actionable_insights": [
+              "Engineers link food quality directly to afternoon productivity — strong ROI narrative for B2B sales",
+              "$15/meal price sensitivity confirmed for individual contributors",
+              "Decision fatigue is the key insight — emphasize zero-decision positioning"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "NN-003",
+          "respondent_name": "Amara O.",
+          "respondent_role": "HR Director",
+          "respondent_company_size": "200 employees",
+          "respondent_industry": "Finance",
+          "completed_date": "2026-01-23",
+          "duration_minutes": 15,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "From an HR perspective, how do you think about food and nutrition as part of employee wellbeing?",
+              "answer_text": "It's in our employee benefits strategy but honestly we haven't done it well. We have a $50/month meal stipend on Expensify but less than 30% of employees actually use it — the process is too annoying.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "Only 30% using a benefit they're entitled to — that's striking. What do you think is stopping the other 70%?",
+              "answer_text": "Expense reports. Nobody wants to photograph receipts and submit them for $12. The friction is higher than the value. I've been trying to get the CFO to approve a direct corporate account with a delivery service but the audit requirements are complicated.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "If you could get a corporate solution approved tomorrow, what would the CFO need to see to say yes?",
+              "answer_text": "Cost per employee per day, utilization rate, and ideally some data linking it to reduced sick days or improved engagement scores. We did an engagement survey and 'better food options at work' was the #3 most requested benefit.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What's the connection between food and the broader employee retention picture for you?",
+              "answer_text": "Enormous. We're competing with Google and Meta for talent. They have free gourmet cafeterias. I can't match that, but if I could offer daily healthy delivered lunches as a perk, that's a real differentiator in recruiting conversations.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "employee benefits",
+              "corporate procurement",
+              "utilization friction",
+              "recruiting competitiveness",
+              "ROI measurement",
+              "expense workflow"
+            ],
+            "sentiment_scores": {
+              "overall": 3.1,
+              "pain_intensity": 3.4,
+              "openness_to_switch": 4.6
+            },
+            "key_quotes": [
+              "Less than 30% use the meal stipend — the process is too annoying",
+              "'Better food options at work' was the #3 most requested benefit",
+              "We're competing with Google and Meta — free cafeterias are a real differentiator"
+            ],
+            "actionable_insights": [
+              "HR buyers need CFO-ready ROI data: cost/employee/day, utilization, and ideally engagement lift",
+              "Corporate billing (not expense reimbursement) is table stakes for enterprise adoption",
+              "Talent acquisition angle is a strong HR buyer motivation — not just wellness"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "NN-004",
+          "respondent_name": "Carlos R.",
+          "respondent_role": "Founder & CEO",
+          "respondent_company_size": "8 employees",
+          "respondent_industry": "ClimateTech",
+          "completed_date": "2026-01-23",
+          "duration_minutes": 9,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "As a founder with a small team, how do you handle food at the office?",
+              "answer_text": "We don't really have an office — we're remote-first with a WeWork membership people use occasionally. Lunch is completely individual. I probably spend $25 a day on food and it's almost always bad for me.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "Why do you think you consistently end up with unhealthy choices despite spending $25 a day?",
+              "answer_text": "When I'm building, I'm in flow state. Stopping to figure out food feels like a context switch I can't afford. So I go for the fastest thing, which is never the healthiest thing. I've gained 15 pounds since starting this company.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "That's a significant impact. Have you ever tried any solutions — meal kits, meal prep services, anything?",
+              "answer_text": "Tried HelloFresh — the cooking takes 45 minutes which defeats the purpose. Tried Factor meals — they're fine but they're designed for home not for eating at a desk in a work headspace. And they don't do lunch timing.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What would make you actually adopt something new given your remote setup?",
+              "answer_text": "Delivery timed exactly to when I want to eat, not a 3-hour window. Portioned for one person. And honestly something I feel good about eating, not just 'healthy-ish'. I'm in my 30s and I can feel the difference now.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "remote work",
+              "individual health",
+              "founder lifestyle",
+              "meal timing",
+              "flow state disruption",
+              "health consciousness"
+            ],
+            "sentiment_scores": {
+              "overall": 2.6,
+              "pain_intensity": 4.0,
+              "openness_to_switch": 4.1
+            },
+            "key_quotes": [
+              "Stopping to figure out food feels like a context switch I can't afford",
+              "I've gained 15 pounds since starting this company",
+              "Delivery timed exactly to when I want to eat, not a 3-hour window"
+            ],
+            "actionable_insights": [
+              "Precise delivery timing (not window) is a strong differentiator for knowledge workers",
+              "Flow state protection is a powerful emotional hook for founder/IC personas",
+              "Existing alternatives (HelloFresh, Factor) are failing on timing and office context"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "NN-005",
+          "respondent_name": "Lisa H.",
+          "respondent_role": "Chief People Officer",
+          "respondent_company_size": "500 employees",
+          "respondent_industry": "Biotech",
+          "completed_date": "2026-01-27",
+          "duration_minutes": 12,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "At 500 employees, food is probably a meaningful operational challenge. How do you currently handle it?",
+              "answer_text": "We have a subsidized cafeteria but it's expensive to run — about $600K a year in overhead. And post-pandemic, only 60% of people are in office on any given day, so we're paying for capacity we don't use.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "That cost structure sounds painful. Are you actively looking for alternatives?",
+              "answer_text": "Yes, but our employees have high expectations. Half the team came from big tech where food was a major perk. We can't just remove the cafeteria and give everyone $10 a day — there'd be a revolt.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "What would you need to see from an alternative to even consider replacing the cafeteria?",
+              "answer_text": "Quality that's at least comparable, coverage of all dietary needs — we have employees with serious allergies, halal and kosher requirements. And the admin burden has to be lower, not higher. Right now I have a full-time person managing food vendor relationships.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If a solution could match cafeteria quality at lower cost and lower admin burden, what would the procurement process look like?",
+              "answer_text": "6-month pilot, legal review of the vendor contract, probably a $50K annual commitment minimum to get budget approved. But if it works, we'd expand to all 3 of our campuses.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "enterprise food ops",
+              "cafeteria replacement",
+              "dietary compliance",
+              "procurement complexity",
+              "post-pandemic hybrid work",
+              "cost reduction"
+            ],
+            "sentiment_scores": {
+              "overall": 3.2,
+              "pain_intensity": 3.8,
+              "openness_to_switch": 3.5
+            },
+            "key_quotes": [
+              "$600K a year in cafeteria overhead, 60% utilization post-pandemic",
+              "I have a full-time person managing food vendor relationships",
+              "If it works, we'd expand to all 3 of our campuses"
+            ],
+            "actionable_insights": [
+              "Enterprise land-and-expand opportunity: single campus pilot → multi-campus rollout",
+              "Halal/kosher/allergy compliance is non-negotiable for enterprise contracts",
+              "$50K annual minimum contract size for enterprise budget approval — set pricing accordingly"
+            ],
+            "auto_analyzed": true
+          }
+        }
+      ]
+    },
+    "hireiq_001": {
+      "id": "hireiq_001",
+      "name": "HireIQ — Customer Discovery",
+      "product_description": "HireIQ is an AI-powered hiring platform for technical roles. It uses candidate GitHub profiles, papers, and online presence to write personalized outreach, automates scheduling, and drafts structured interview feedback for hiring managers to approve in one click. We're researching the biggest pain points in technical hiring and where current ATS tools fall short.",
+      "target_respondent": "Engineering managers, CTOs, technical recruiters, and VP People at tech companies",
+      "research_goal": "Understand biggest pain points in technical hiring and where current ATS tools fall short",
+      "created_date": "2026-01-17",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Technical hiring is notoriously hard. Walk me through your last engineering hire — what was the experience?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "340 applications for one role — how did you decide who to actually interview?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "You mentioned 4 months start to finish. What was the most time-consuming part?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "If you could get back those 4 months and 40 hours, how would that change what you're building?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "As a technical recruiter, you sit between engineering managers and candidates. What's the hardest part of your job that technology hasn't solved?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "How often do you lose candidates specifically because of slow internal feedback loops?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "What have you tried to fix this problem?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "If an AI could draft preliminary feedback based on the interview notes, would hiring managers actually use it?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "You're hiring AI/ML engineers which is probably among the most competitive roles in the market. What's your approach?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "Why do you think job boards fail so badly for AI/ML roles specifically?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "hireiq_001",
+      "interviews": [
+        {
+          "id": "HQ-001",
+          "respondent_name": "Tom B.",
+          "respondent_role": "Head of Engineering",
+          "respondent_company_size": "90 employees",
+          "respondent_industry": "SaaS",
+          "completed_date": "2026-01-17",
+          "duration_minutes": 17,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "Technical hiring is notoriously hard. Walk me through your last engineering hire — what was the experience?",
+              "answer_text": "We posted a senior backend role in January. Got 340 applications. I spent two weeks just doing resume screens. Hired someone in March. Four months start to finish. It was brutal.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "340 applications for one role — how did you decide who to actually interview?",
+              "answer_text": "Keyword matching, basically. Python, AWS, 5+ years. I know it's terrible. I probably passed on great candidates who didn't know to include buzzwords and advanced unqualified people who did.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "You mentioned 4 months start to finish. What was the most time-consuming part?",
+              "answer_text": "Scheduling. I'm not kidding — scheduling alone probably took 40 hours across the whole process. Coordinating 4 interviewers, time zones, candidate no-shows. We use Calendly but it still requires someone to coordinate everything manually.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If you could get back those 4 months and 40 hours, how would that change what you're building?",
+              "answer_text": "I'd have shipped the feature we delayed by 3 months because we were short-staffed. Bad hiring process has real product consequences. I'm willing to pay serious money to fix it.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "resume screening",
+              "scheduling friction",
+              "time-to-hire",
+              "keyword filtering",
+              "hiring bias",
+              "product impact"
+            ],
+            "sentiment_scores": {
+              "overall": 2.0,
+              "pain_intensity": 4.6,
+              "openness_to_switch": 4.5
+            },
+            "key_quotes": [
+              "Scheduling alone took 40 hours across the whole process",
+              "Keyword matching, basically — I know it's terrible",
+              "Bad hiring process has real product consequences"
+            ],
+            "actionable_insights": [
+              "Scheduling automation is a massive pain point — even beyond resume screening",
+              "Keyword-based screening is known to be flawed — buyers are aware and embarrassed",
+              "Link hiring delay to product delay in sales narrative — concrete business cost"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "HQ-002",
+          "respondent_name": "Rachel G.",
+          "respondent_role": "Technical Recruiter",
+          "respondent_company_size": "1200 employees",
+          "respondent_industry": "Enterprise Tech",
+          "completed_date": "2026-01-21",
+          "duration_minutes": 9,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "As a technical recruiter, you sit between engineering managers and candidates. What's the hardest part of your job that technology hasn't solved?",
+              "answer_text": "Getting engineers to give me feedback quickly. I'll send a hiring manager feedback for 3 candidates and wait a week for a response. Meanwhile the good candidate has 3 other offers.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "How often do you lose candidates specifically because of slow internal feedback loops?",
+              "answer_text": "Every week. Conservatively, I lose one strong candidate per week to a faster-moving company. My current ATS — we use Greenhouse — doesn't solve this at all. It sends reminders that people ignore.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "What have you tried to fix this problem?",
+              "answer_text": "Slack nudges, personal emails, even walking to desks pre-pandemic. Nothing works consistently because hiring isn't engineers' main job — they're busy. What I actually need is an AI that can draft the feedback and just ask them to confirm or edit.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If an AI could draft preliminary feedback based on the interview notes, would hiring managers actually use it?",
+              "answer_text": "Absolutely. Most of them struggle to articulate why they liked or didn't like a candidate. If the AI gave them a structured draft based on what they said in Slack or the debrief, they'd probably just hit confirm 80% of the time.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "feedback latency",
+              "candidate pipeline speed",
+              "ATS limitations",
+              "engineering manager adoption",
+              "AI-assisted evaluation",
+              "competitive offers"
+            ],
+            "sentiment_scores": {
+              "overall": 2.5,
+              "pain_intensity": 4.4,
+              "openness_to_switch": 4.6
+            },
+            "key_quotes": [
+              "I lose one strong candidate per week to a faster-moving company",
+              "Greenhouse sends reminders that people ignore",
+              "If the AI gave them a structured draft, they'd hit confirm 80% of the time"
+            ],
+            "actionable_insights": [
+              "AI-drafted feedback for engineering manager approval is a highly desired feature",
+              "Speed-to-offer is a key competitive metric — position against slower ATS workflows",
+              "Recruiters are the actual power users and champions — sell to them first"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "HQ-003",
+          "respondent_name": "Kevin S.",
+          "respondent_role": "CTO",
+          "respondent_company_size": "25 employees",
+          "respondent_industry": "AI/ML Startup",
+          "completed_date": "2026-01-24",
+          "duration_minutes": 12,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "You're hiring AI/ML engineers which is probably among the most competitive roles in the market. What's your approach?",
+              "answer_text": "Mostly referrals and cold outreach on LinkedIn. Job boards give us garbage. I've gotten maybe 2 good candidates from job postings in two years versus 20 from referrals.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "Why do you think job boards fail so badly for AI/ML roles specifically?",
+              "answer_text": "The best ML engineers aren't looking. They're employed, well-paid, and not refreshing LinkedIn. The ones who are actively applying are usually the ones who got laid off or couldn't pass interviews elsewhere. That sounds harsh but it's our reality.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "So you're primarily doing outbound. How many hours a week do you personally spend on recruiting?",
+              "answer_text": "More than I should. Probably 10 hours a week on sourcing, messaging, and first-round screening calls. For a CTO of a 25-person company that's insane — I should be building product, not recruiting.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If a tool could handle the sourcing and initial outreach with high enough quality to replace your personal touch, would you trust it?",
+              "answer_text": "I'm skeptical but interested. The personalization bar is high — generic InMail gets zero response. If it could analyze a candidate's GitHub, their papers, their Twitter and write something that actually references their work, maybe.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "sourcing quality",
+              "passive candidates",
+              "outbound recruiting",
+              "personalization",
+              "CTO time cost",
+              "referral networks"
+            ],
+            "sentiment_scores": {
+              "overall": 2.9,
+              "pain_intensity": 4.0,
+              "openness_to_switch": 3.7
+            },
+            "key_quotes": [
+              "10 hours a week on sourcing for a 25-person company CTO — that's insane",
+              "The best ML engineers aren't looking",
+              "If it analyzed their GitHub, their papers, their Twitter and wrote something that referenced their work"
+            ],
+            "actionable_insights": [
+              "GitHub/paper analysis for personalized outreach is the key technical differentiator for AI/ML hiring",
+              "Passive candidate sourcing is the real market gap — not job board optimization",
+              "CTO recruiting time is a compelling cost narrative for early-stage companies"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "HQ-004",
+          "respondent_name": "Nina P.",
+          "respondent_role": "VP People",
+          "respondent_company_size": "400 employees",
+          "respondent_industry": "Fintech",
+          "completed_date": "2026-01-26",
+          "duration_minutes": 19,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "Fintech hiring has specific compliance dimensions beyond typical tech hiring. How does that affect your process?",
+              "answer_text": "Enormously. Every hire goes through a background check, a credit check in some cases, and regulatory clearance for certain roles. Our ATS — Workday — wasn't designed for this complexity. We've built so many custom workflows that it barely resembles the out-of-box product.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "What happens when those custom workflows break?",
+              "answer_text": "Candidate experience falls apart. We had an incident last quarter where a compliance step was skipped due to a workflow bug and we had to pull a job offer post-acceptance. That was a nightmare — legal, HR, and PR all involved.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "What would a better-built solution need to have to even get a conversation with you?",
+              "answer_text": "SOC 2 Type II certification is non-negotiable. EEOC reporting built in, not bolted on. And an API that actually works so I don't have to rebuild my entire compliance workflow from scratch.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "If all the compliance boxes were checked, what would the buying decision actually come down to?",
+              "answer_text": "Candidate experience scores and time-to-fill. Those are my two board metrics. If a new tool could show me a 20% reduction in time-to-fill and higher candidate NPS in a pilot, I'd have the business case to rip and replace Workday.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "compliance requirements",
+              "ATS customization",
+              "candidate experience",
+              "enterprise procurement",
+              "board metrics",
+              "SOC2/EEOC"
+            ],
+            "sentiment_scores": {
+              "overall": 2.7,
+              "pain_intensity": 4.2,
+              "openness_to_switch": 3.6
+            },
+            "key_quotes": [
+              "SOC 2 Type II certification is non-negotiable",
+              "We had to pull a job offer post-acceptance — legal, HR, and PR all involved",
+              "20% reduction in time-to-fill and higher candidate NPS — that's my business case"
+            ],
+            "actionable_insights": [
+              "SOC 2 Type II is table stakes for fintech buyers — must have before enterprise sales",
+              "Compliance workflow reliability is a stronger pain than feature set for regulated industries",
+              "Time-to-fill and candidate NPS are the two metrics that drive enterprise buying decisions"
+            ],
+            "auto_analyzed": true
+          }
+        },
+        {
+          "id": "HQ-005",
+          "respondent_name": "Jordan M.",
+          "respondent_role": "Software Engineer (recently hired)",
+          "respondent_company_size": "60 employees",
+          "respondent_industry": "Consumer Tech",
+          "completed_date": "2026-01-28",
+          "duration_minutes": 17,
+          "answers": [
+            {
+              "question_id": "q1",
+              "question_text": "You were recently hired — I'd love to get the candidate perspective. What was the experience of going through a technical hiring process like?",
+              "answer_text": "I applied to 12 companies over 6 weeks. The variation in process quality was shocking — some companies had me talking to a real person within 24 hours, others had me doing a 3-hour take-home before even a phone screen.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q2",
+              "question_text": "What made you ultimately choose the company you joined over the others?",
+              "answer_text": "Speed and respect for my time. They got back to me same day at every step. The technical interview was actually interesting, not just LeetCode puzzles. And the recruiter was honest about the role's challenges instead of overselling.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q3",
+              "question_text": "You mentioned 3-hour take-homes before a phone screen — how common was that and what did you think?",
+              "answer_text": "Four out of twelve companies did this. I completed two and ghosted the other two. It signals that the company doesn't value your time. If I'm senior, I shouldn't have to prove basic competency before you've even had a conversation with me.",
+              "has_audio": false,
+              "audio_path": null
+            },
+            {
+              "question_id": "q4",
+              "question_text": "What would your ideal technical interview process look like?",
+              "answer_text": "30-minute intro call to make sure we like each other. Then a 1-hour technical discussion about a real problem they've solved, not an algorithm puzzle. Then a team fit conversation. Total: 2 hours. I've seen it done — it's possible.",
+              "has_audio": false,
+              "audio_path": null
+            }
+          ],
+          "analysis": {
+            "themes": [
+              "candidate experience",
+              "interview process design",
+              "take-home assignments",
+              "response time",
+              "interviewer quality",
+              "transparency"
+            ],
+            "sentiment_scores": {
+              "overall": 3.4,
+              "pain_intensity": 3.2,
+              "openness_to_switch": 2.5
+            },
+            "key_quotes": [
+              "Speed and respect for my time — that's why I chose them",
+              "Four out of twelve companies did 3-hour take-homes — I ghosted two of them",
+              "If I'm senior, I shouldn't have to prove basic competency before a conversation"
+            ],
+            "actionable_insights": [
+              "Candidate ghosting of lengthy take-homes is quantifiable and compelling for employer branding argument",
+              "Same-day response at every step is a key candidate experience differentiator — measurable",
+              "Real problem discussion > LeetCode is a signal of company culture quality for senior candidates"
+            ],
+            "auto_analyzed": true
+          }
+        }
+      ]
+    },
+    "protein_bars_9fce": {
+      "id": "protein_bars_9fce",
+      "name": "Protein bars",
+      "product_description": "We are doing protein bars with 30 gr of proteins per bar (per 50 gr). ",
+      "target_respondent": "gym bros",
+      "research_goal": "user behaviour",
+      "created_date": "2026-03-12",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your pre-workout snack routine.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "Describe the last protein bar you ate.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "What do you usually consider when choosing a protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "Walk me through your post-gym nutrition decisions.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "What frustrates you most about current protein bar options?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "Share a time when you felt dissatisfied with a snack after the gym.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "How did you first decide which protein bar to use?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "What alternatives do you explore when you're out of protein bars?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "When do you most often crave a protein boost?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "protein_bars_9fce",
+      "interviews": []
+    },
+    "protein_bars_f978": {
+      "id": "protein_bars_f978",
+      "name": "Protein bars",
+      "product_description": "We are doing protein bars with 30gr of protein per bar (50gr)\n",
+      "target_respondent": "gym bros",
+      "research_goal": "user behavior",
+      "created_date": "2026-03-12",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your post-workout snack routine.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "How do you decide on protein bars?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "When did you last feel unsatisfied with a protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "What brands of protein bars do you usually buy?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "What frustrates you most about choosing protein snacks?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "Describe the last time you struggled with a workout recovery.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "How do you feel after eating your current protein bars?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "What's your process for discovering new protein products?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "How have you adapted when protein snacks were unavailable?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "What changes have you considered making to your post-workout nutrition?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "protein_bars_f978",
+      "interviews": []
+    },
+    "protein_bars_390e": {
+      "id": "protein_bars_390e",
+      "name": "protein bars",
+      "product_description": "we are doing protein bars with 30gr of protein per bar (50gr bar)",
+      "target_respondent": "gym bros",
+      "research_goal": "user behavior",
+      "created_date": "2026-03-12",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your last workout session.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "When did you last choose a protein bar post workout?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "What influenced your choice of protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "What was the most frustrating part about your current protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "How do you feel when consuming your current protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "Tell me about a time you switched protein bar brands.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "Why did you stop using a previous protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "How do you manage your protein intake during the day?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "What's your go-to snack after an intense workout?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "What would make you reconsider your protein snack choice?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "protein_bars_390e",
+      "interviews": []
+    },
+    "protein_bars_118d": {
+      "id": "protein_bars_118d",
+      "name": "protein bars",
+      "product_description": "we are doing protein bars with 30gr of protein per bar (50gr bar)",
+      "target_respondent": "gym bros",
+      "research_goal": "user behavior",
+      "created_date": "2026-03-12",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your last workout session.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "When did you last choose a protein bar post workout?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "What influenced your choice of protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "What was the most frustrating part about your current protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "How do you feel when consuming your current protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "Tell me about a time you switched protein bar brands.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "Why did you stop using a previous protein bar?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "How do you manage your protein intake during the day?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "What's your go-to snack after an intense workout?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "What would make you reconsider your protein snack choice?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "protein_bars_118d",
+      "interviews": []
+    },
+    "protein_bars_4945": {
+      "id": "protein_bars_4945",
+      "name": "protein bars",
+      "product_description": "We are doing protein bars with 30 gr of protein per bar (50gr)",
+      "target_respondent": "gym bros",
+      "research_goal": "user behavior",
+      "created_date": "2026-03-12",
+      "status": "active",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Tell me about your last purchase of protein bars.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q2",
+          "text": "How do you decide which protein bars to buy?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q3",
+          "text": "What do you typically eat before or after workouts?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q4",
+          "text": "Can you share a time a protein bar didn't meet your expectations?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q5",
+          "text": "What frustrates you most about current protein bar options?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q6",
+          "text": "Describe a time you were pleased with a protein-related product.",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q7",
+          "text": "What sacrifices have you made for your protein intake?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q8",
+          "text": "How did you feel last time a bar didn't deliver on protein claims?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q9",
+          "text": "What bar feature is most crucial for your workout routine?",
+          "enabled": true,
+          "source": "ai"
+        },
+        {
+          "id": "q10",
+          "text": "When a bar doesn't fit your needs, what do you do instead?",
+          "enabled": true,
+          "source": "ai"
+        }
+      ],
+      "interview_token": "protein_bars_4945",
+      "interviews": []
+    }
+  }
+}
