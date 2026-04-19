@@ -25,8 +25,26 @@ Founders describe their product, the AI generates research-quality interview que
 
 ## Setup
 
+### 1. Install dependencies
+
 ```bash
-pip install streamlit plotly pandas openai audio-recorder-streamlit
+pip install -r requirements.txt
+```
+
+### 2. Configure your OpenAI API key
+
+The app uses OpenAI GPT-4o and Whisper, so you need an API key.
+
+```bash
+cp .env.example .env
+# then open .env and paste your key from https://platform.openai.com/api-keys
+```
+
+The `.env` file is git-ignored, so your key stays local.
+
+### 3. Initialize the database and run
+
+```bash
 python data/generate_database.py
 python data/init_campaigns.py
 streamlit run app.py
