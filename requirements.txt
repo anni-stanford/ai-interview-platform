@@ -1,0 +1,6 @@
+streamlit>=1.32
+openai>=1.30
+python-dotenv>=1.0
+plotly>=5.18
+pandas>=2.0
+audio-recorder-streamlit>=0.0.10
