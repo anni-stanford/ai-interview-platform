@@ -66,3 +66,7 @@ prototype/
 │   └── campaigns_db.json
 └── README.md
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
